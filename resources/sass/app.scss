@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Generate
+@import 'generate';
+
+// Business Clearance CSS
+@import 'businessclearance';
+
+// Residency CSS
+@import 'residency';
+
+// Clearance CSS
+@import 'clearance';
+
+// Indigency CSS
+@import 'indigency';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';

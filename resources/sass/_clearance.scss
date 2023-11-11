@@ -1,0 +1,41 @@
+.clearance{
+    background-image: url("/images/templates/Clearance.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 21.59cm;
+    height: 27.94cm;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.clearancecontent{
+    position: relative;
+    width: 510px;
+    height: auto;
+    float:right;
+    padding-top: 300px;
+    color: black;
+}
+
+.clearancefont{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.clearancesign{
+    background-size: contain;
+    position: absolute;
+    padding-left: 140px;
+    padding-top: 15px;
+}
+
+.clearance .capt{
+    font-size: 15px;
+    float: right;
+    text-align: center;
+}

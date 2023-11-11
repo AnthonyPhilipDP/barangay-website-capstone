@@ -1,0 +1,45 @@
+.content{
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0;
+}
+
+.indigency{
+    background-image: url("/images/templates/Indigency.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 21.59cm;
+    height: 27.94cm;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.indigencycontent{
+    padding-top: 350px;
+    color: black;
+    font-family: Georgia, Times, "Times New Roman";
+    text-align: justify;
+    font-size: 18px;
+}
+
+.indigency .name{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.indigencysign{
+    background-size: contain;
+    position: absolute;
+    padding-left: 335px;
+    padding-top: 30px;
+}
+
+.indigency .capt{
+    text-align: center;
+    padding-left: 300px;
+}

@@ -1,0 +1,72 @@
+.businessclearance{
+    background-image: url("/images/templates/BusinessClearance.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 29.7cm;
+    height: 42cm;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.businesscontent{
+    position: relative;
+    width: 785px;
+    height: auto;
+    float:right;
+    padding-top: 400px;
+    padding-left: 15px;
+    color: black;
+}
+
+.businessname{
+    text-decoration: underline;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.businessoperator{
+    text-decoration: underline;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.businesssign{
+    background-size: contain;
+    position: absolute;
+    padding-left: 300px;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.businesssign .capt{
+    position: absolute;
+    text-decoration: underline;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bcpunongbrgy{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.businessaddress{
+    text-align: center;
+}
+
+.businessfont{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
